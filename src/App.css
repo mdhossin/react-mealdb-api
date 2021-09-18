@@ -121,3 +121,14 @@ body{
 button:hover{
   background-color: rgb(177, 111, 95);
 }
+
+@media screen and (max-width:768px ){
+  .allData {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+  }
+}
